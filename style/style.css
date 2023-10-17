@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    margin: 16px;
+    justify-content: center;
+}
+
+.okenko{
+    background-color: rgb(225, 248, 248);
+    border: 1px solid rgb(214, 246, 246);
+    border-radius: 5px;
+    padding: 30px;
+    margin: 25%;
+}
+
+.odsazeni{
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    min-width: 130px;
+} 
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+} 
+
+.buttons a{
+    color: white;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 16px;
+    text-decoration: none;
+}
+
+#prihlaseni{
+    background-color: rgb(48, 56, 37);
+}
+
+#heslo{
+    background-color: blue;
+}
+
